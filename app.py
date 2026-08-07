@@ -16,10 +16,10 @@ st.caption("Databricks Unity Catalog Risk & Governance Intelligence Agent")
 @st.cache_data
 def load_metadata():
     try:
-        with open("metadata_snapshot.json", "r") as f:
+        with open("metadata_snapchat.json", "r") as f:
             return json.load(f)
     except FileNotFoundError:
-        st.error("`metadata_snapshot.json` not found in repository root.")
+        st.error("`metadata_snapchat.json` not found in repository root.")
         return None
 
 data = load_metadata()
