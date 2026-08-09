@@ -1,4 +1,4 @@
-streamlit==1.32.0
-pandas==2.2.0
-networkx==3.2.1
-databricks-sql-connector==3.1.2
+streamlit
+pandas
+networkx
+databricks-sql-connector
